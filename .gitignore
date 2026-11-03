@@ -1,0 +1,19 @@
+# 依赖与本地数据
+node_modules/
+
+# 浏览器登录态（含 Cookie，绝对不能提交）
+.browser-profile/
+*.browser-profile/
+
+# 个人听歌数据：默认只保留模板，不把口味推到公开仓库
+music/*.json
+music/*.jsonl
+music/rounds/*.json
+music/rounds/*.md
+music/candidates/*.json
+tools/qqmusic/out/
+
+# 系统噪音
+.DS_Store
+Thumbs.db
+*.log
